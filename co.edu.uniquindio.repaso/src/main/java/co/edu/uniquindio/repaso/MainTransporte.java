@@ -181,19 +181,19 @@ public class MainTransporte {
 
     private static EmpresaTransporte inicializarDatos() {
         EmpresaTransporte empresaTransporte = new EmpresaTransporte();
-        empresaTransporte.setNombre("Transportes Juan");
+        empresaTransporte.setNombre("Transportadora SA");
 
-        Propietario propietario1 = new Propietario("Juan", "1004870686", "juan@email.com", 35, "3174875717");
-        Propietario propietario2 = new Propietario("Jose", "1005087491", "jose@email.com", 45, "3218824490");
+        Propietario propietario1 = new Propietario("Pedro", "1094884823", "Pedro@email.com", 35, "3174875717");
+        Propietario propietario2 = new Propietario("Luisa", "1001116789", "Luisa@email.com", 45, "3218824490");
 
-        VehiculoPasajero vehiculo1 = new VehiculoPasajero("QWE123", "2019", "Mazda", "Blanco", propietario1, 20);
-        VehiculoPasajero vehiculo2 = new VehiculoPasajero("ASD123", "2002", "Mazda", "Negro", propietario1, 8);
-        VehiculoPasajero vehiculo3 = new VehiculoPasajero("ZXC123", "2025", "Toyota", "Rojo", propietario2, 12);
+        VehiculoPasajero vehiculo1 = new VehiculoPasajero("ABC123", "2019", "Renault", "Blanco", propietario1, 20);
+        VehiculoPasajero vehiculo2 = new VehiculoPasajero("DEF123", "2002", "Mazda", "Negro", propietario1, 8);
+        VehiculoPasajero vehiculo3 = new VehiculoPasajero("GHI123", "2025", "Mercedes", "Rojo", propietario2, 12);
 
-        Usuario usuario1 = new Usuario("Javier", 42, 70.2);
-        Usuario usuario2 = new Usuario("Maria", 18, 50.3);
-        Usuario usuario3 = new Usuario("Andres", 430, 68.9);
-        Usuario usuario4 = new Usuario("Manuel", 42, 71.6);
+        Usuario usuario1 = new Usuario("Miguel", 70, 70.2);
+        Usuario usuario2 = new Usuario("Nelly", 27, 50.3);
+        Usuario usuario3 = new Usuario("Julian", 53, 68.9);
+        Usuario usuario4 = new Usuario("Maria", 42, 71.6);
 
         propietario1.agregarVehiculoPasajero(vehiculo1);
         propietario1.agregarVehiculoPasajero(vehiculo2);
